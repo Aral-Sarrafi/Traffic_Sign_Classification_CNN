@@ -26,6 +26,13 @@ The outline of the project is:
 [image9]: ./Figures/normalized.jpg
 [image10]: ./Figures/modifiedLeNet.jpg
 
+[image11]: ./German Traffic Signs/100_1607.jpg
+[image12]: ./German Traffic Signs/240px-Italian_traffic_signs_-_animali_selvatici_vaganti.svg.jpg
+[image13]: ./German Traffic Signs/459381113.jpg
+[image14]: ./German Traffic Signs/467030179.jpg
+[image15]: ./German Traffic Signs/german_4.jpg
+[image16]: ./German Traffic Signs/Stop_Sign.jpg
+
 
 
 
@@ -113,8 +120,8 @@ The performace of the trained model is evaluated on the training, validation and
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8] ![alt_text][image9]
+![alt text][image11] ![alt text][image12] ![alt text][image13] 
+![alt text][image14] ![alt text][image15] ![alt_text][image16]
 
 The first image might be difficult to classify because ...
 
