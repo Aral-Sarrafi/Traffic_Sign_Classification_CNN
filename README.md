@@ -50,7 +50,7 @@ For data augmentation first the classes with less than 800 classes will be selec
 
 ![alt_text][image3]
 
-* Random scaling: This function gets an image and zoom it in randomly
+* Random scaling: This function gets an image and scales it up randomly. The output of this function for some of the examples from the training data set is presented below. The random scaling factor are [1.2,1.4,1.6,1.8].
 ![alt_text][image4]
 * Random translation: This function gets an image and applies a random translation to it
 ![alt_text][image5]
