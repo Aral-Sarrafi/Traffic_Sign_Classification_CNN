@@ -87,19 +87,21 @@ Data normalization is also very helpful while so;ving the optimization problem f
 
 ## 4. Neural network architercture:
 
+With in this project I used the modified LeNet neural network architecture addopted from Sermanet/LeCunn traffic sign classification journal article.
 
 ![alt_text][image10]
 
 
-My final model consisted of the following layers:
+The consists of the following layers:
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
+| Input         		| 32x32x1 grayscale image   							| 
+| Convolution 3x3     	| 1x1 stride, valid padding, outputs 28x28x6 	|
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
+| Max pooling	      	| 2x2 stride,ksize=2,  outputs 14x14x6 				|
+| Convolution 3x3	    | 1x1 stride, valid padding, outputs 10x10x16       									|
+| Max pooling	      	| 2x2 stride,ksize=2,  outputs 5x5x16 				|
 | Fully connected		| etc.        									|
 | Softmax				| etc.        									|
 |						|												|
