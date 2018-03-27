@@ -1,15 +1,16 @@
 # **Traffic Sign Recognition** 
 
 
-**Build a Traffic Sign Recognition Project**
-
-The goals / steps of this project are the following:
-* Load the data set (see below for links to the project data set)
-* Explore, summarize and visualize the data set
-* Design, train and test a model architecture
-* Use the model to make predictions on new images
-* Analyze the softmax probabilities of the new images
-* Summarize the results with a written report
+**Project outline:**
+Within this project a convolutional neural network has been implemeted for classification of traffic sign signals with 43 classes.
+The outline of the project is:
+* Loading the data and visualization
+* Data augmentation
+* Converting the data to grayscale and normalization
+* Neural network architercture
+* Trainig the Neural network and evaluating the accuracy on the validation set
+* Evaluation of the accuracy of the model on the test data
+* Evaluation of the accuracy of the model on the images downloaded from web
 
 
 [//]: # (Image References)
