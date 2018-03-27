@@ -10,6 +10,7 @@ The outline of the project is:
 * Neural network architercture
 * Trainig the Neural network
 * Evaluation of the accuracy of the model on the images downloaded from web
+* Suggestions
 
 
 [//]: # (Image References)
@@ -146,5 +147,13 @@ Other than the accuracy of the model in predicting the label for the sign, the c
 ![alt text][image14]![alt text][image15] 
 ![alt text][image16]![alt text][image17] 
 
+## 7. Suggestions
 
+The trained model has an acceptble performance. However, there is still lots of room for imporovement. Some of the ideas that are worth investigating are :
 
+* Cosidering a better data augmentation approach:
+The data augmentation can be performed is a smarter way which leads to a uniform distribution of the training data set to avoid a biased training of the model. More data augmentation function can be introduced such as bluring the images adding noise or random affine transfomations.
+
+* Use other network architecture:
+
+With in this projec I used modified LeNet for image classification. The drawback of this method is that the color of the images will not be taken into account in the classification procedure. Better image classification networks such as AlexNet or VGG-16 can take advantage of the color in the images which may lead to a better pefromance. However, training these models can take a longer time.
