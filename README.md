@@ -25,13 +25,8 @@ The outline of the project is:
 [image8]: ./Figures/grayscale.jpg
 [image9]: ./Figures/normalized.jpg
 [image10]: ./Figures/modifiedLeNet.jpg
+[image11]: ./Figures/normalized_web_images.jpg
 
-[image11]: ./German Traffic Signs/100_1607.jpg
-[image12]: ./German Traffic Signs/240px-Italian_traffic_signs_-_animali_selvatici_vaganti.svg.jpg
-[image13]: ./German Traffic Signs/459381113.jpg
-[image14]: ./German Traffic Signs/467030179.jpg
-[image15]: ./German Traffic Signs/german_4.jpg
-[image16]: ./German Traffic Signs/Stop_Sign.jpg
 
 
 
@@ -114,16 +109,11 @@ The performace of the trained model is evaluated on the training, validation and
 * training set accuracy of : 0.999
 * validation set accuracy of : 0.949
 * test set accuracy of : 0.935
-### Test a Model on New Images
 
-#### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
+## 6. Test a Model on New Images
+Here are six German traffic signs that I found on the web:
 
-Here are five German traffic signs that I found on the web:
-
-![alt text][image11] ![alt text][image12] ![alt text][image13] 
-![alt text][image14] ![alt text][image15] ![alt_text][image16]
-
-The first image might be difficult to classify because ...
+![alt text][image11]
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -156,8 +146,3 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 
 
 For the second image ... 
-
-### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
-#### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
-
-
