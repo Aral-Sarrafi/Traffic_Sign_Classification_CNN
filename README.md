@@ -15,11 +15,11 @@ The outline of the project is:
 
 [//]: # (Image References)
 
-[image1]: ./Figures/data_set.jpg "Data_Set"
-[image2]: ./Figures/histogram.jpg "Data_Set"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
+[image1]: ./Figures/data_set.jpg
+[image2]: ./Figures/histogram.jpg 
+[image3]: ./Figures/rotation.jpg 
+[image4]: ./Figures/scaled.jpg 
+[image5]: ./Figures/translated.jpg 
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
@@ -46,11 +46,12 @@ As it is clear some the signs (classes) have small number of examples. Therefore
 ### 2. Data augmentation:
 For data augmentation first the classes with less than 800 classes will be selected to generate new data for them. Three different data agumentation methods have been employed to generate new data:
 
-* Random rotation
-* Random scaling
-* Random translation
-
-As a first step, I decided to convert the images to grayscale because ...
+* Random rotation: This function gets an image and rotate it randomly around the center of the image 
+![alt_text][image3]
+* Random scaling: This function gets an image and zoom it in randomly
+![alt_text][image4]
+* Random translation: This function gets an image and applies a random translation to it
+![alt_text][image5]
 
 Here is an example of a traffic sign image before and after grayscaling.
 
