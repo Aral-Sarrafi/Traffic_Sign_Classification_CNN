@@ -27,11 +27,11 @@ The outline of the project is:
 [image11]: ./Figures/normalized_web_images.jpg
 
 [image12]: ./Figures/Sign0.jpg
-[image13]: ./Figures/Sign0.jpg
-[image14]: ./Figures/Sign0.jpg
-[image15]: ./Figures/Sign0.jpg
-[image16]: ./Figures/Sign0.jpg
-[image17]: ./Figures/Sign0.jpg
+[image13]: ./Figures/Sign1.jpg
+[image14]: ./Figures/Sign2.jpg
+[image15]: ./Figures/Sign3.jpg
+[image16]: ./Figures/Sign4.jpg
+[image17]: ./Figures/Sign5.jpg
 
 
 
@@ -141,4 +141,5 @@ The trained model was able to identify the new images downloaded from the web ac
 
 Other than the accuracy of the model in predicting the label for the sign, the certaintity of the model for the predicted model is important. For example for stop sign the first five best gusses of the model are presented in the table below:
 
-![alt text][image12] ![alt text][image13] 
+![alt text][image12]
+![alt text][image13] 
