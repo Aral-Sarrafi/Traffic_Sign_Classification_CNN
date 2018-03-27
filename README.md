@@ -1,8 +1,8 @@
-# **Traffic Sign Recognition** 
+# **Traffic Sign Recognition in Tensorflow** 
 
 
 **Project outline:**
-Within this project a convolutional neural network has been implemeted for classification of traffic sign signals with 43 classes.
+Within this project a convolutional neural network has been implemeted in tensorflow for classification of traffic sign signals with 43 classes.
 The outline of the project is:
 * Loading the data and visualization
 * Data augmentation
@@ -101,8 +101,9 @@ Data normalization is also very helpful while so;ving the optimization problem f
 With in this project I used the modified LeNet neural network architecture addopted from Sermanet/LeCunn traffic sign classification journal article. Moreover, dropout normalization is used in the fully connected layers for reguralization of the model and avoiding overfitting.
 
 ![alt_text][image10]
-The details of the neural network architecture can be found in the tensorflow implementation.
 
+**Network details:**
+The details of the neural network architecture can be found in the tensorflow implementation in the ipython file.
 ## 5. Trainig the Neural network
 
 The neural network is trained by Adam optimizer. The weights and biases of the model are updated by Adam optimizer in a way to minimize the cross entropy cost function. Hyperparameters of the training are set to be:
