@@ -25,7 +25,7 @@ The outline of the project is:
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 
-### 1. Loading the data and visualization
+## 1. Loading the data and visualization
 Similar to all machine learning approaches the data is splited into training, validation and test sets. The shape of each set can be obtained by using "shape" command from the numpy library.
 
 * The size of training set is : (34799,32,32,3)
@@ -43,18 +43,21 @@ Having a good understanding of the data distribution can be very helpful to trai
 ![alt_text][image2]
 
 As it is clear some the signs (classes) have small number of examples. Therefore, the trained model will be biased towards the signs (classes) with more example. In order to overcome this problem data augmentation can be helpful. With data augmentation, new data will be generated and added to the original training set.
-### 2. Data augmentation:
+## 2. Data augmentation:
 For data augmentation first the classes with less than 800 classes will be selected to generate new data for them. Three different data agumentation methods have been employed to generate new data:
 
-* Random rotation: This function gets an image and rotate it randomly around the center of the image. The random rotation is selected among the angle list of [-15, -10, -5 , 5, 10 ,15]. The output of this function on some of the images from the training set is shown below:
+###  Random rotation:
+This function gets an image and rotate it randomly around the center of the image. The random rotation is selected among the angle list of [-15, -10, -5 , 5, 10 ,15]. The output of this function on some of the images from the training set is shown below:
 
 ![alt_text][image3]
 
-* Random scaling: This function gets an image and scales it up randomly. The output of this function for some of the examples from the training data set is presented below. The random scaling factor are [1.2,1.4,1.6,1.8].
+### Random scaling:
+This function gets an image and scales it up randomly. The output of this function for some of the examples from the training data set is presented below. The random scaling factor are [1.2,1.4,1.6,1.8].
 
 ![alt_text][image4]
 
-* Random translation: This function gets an image and applies a random translation to it. The tranlation is a set of two integer numbers ( one for x direction and the other in y direction) which is selected between -2 and 2.
+### Random translation:
+This function gets an image and applies a random translation to it. The tranlation is a set of two integer numbers ( one for x direction and the other in y direction) which is selected between -2 and 2.
 
 ![alt_text][image5]
 
