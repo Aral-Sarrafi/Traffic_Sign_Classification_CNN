@@ -46,8 +46,10 @@ As it is clear some the signs (classes) have small number of examples. Therefore
 ### 2. Data augmentation:
 For data augmentation first the classes with less than 800 classes will be selected to generate new data for them. Three different data agumentation methods have been employed to generate new data:
 
-* Random rotation: This function gets an image and rotate it randomly around the center of the image 
+* Random rotation: This function gets an image and rotate it randomly around the center of the image. The random rotation is selected among the angle list of [-15, -10, -5 , 5, 10 ,15]. The output of this function on some of the images from the training set is shown below:
+
 ![alt_text][image3]
+
 * Random scaling: This function gets an image and zoom it in randomly
 ![alt_text][image4]
 * Random translation: This function gets an image and applies a random translation to it
