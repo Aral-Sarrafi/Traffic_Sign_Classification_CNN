@@ -26,6 +26,16 @@ The outline of the project is:
 [image10]: ./Figures/modifiedLeNet.jpg
 [image11]: ./Figures/normalized_web_images.jpg
 
+[image12]: ./Figures/Sign0.jpg
+[image13]: ./Figures/Sign0.jpg
+[image14]: ./Figures/Sign0.jpg
+[image15]: ./Figures/Sign0.jpg
+[image16]: ./Figures/Sign0.jpg
+[image17]: ./Figures/Sign0.jpg
+
+
+
+
 
 
 
@@ -129,16 +139,6 @@ Here are the results of the prediction obtained from the model:
 
 The trained model was able to identify the new images downloaded from the web accuratly. However, this does not mean that the model will be accurate for all the other images. As it has been shown tha accuracy of the model for test set and validation set is 93% and 95% respectively.
 
+Other than the accuracy of the model in predicting the label for the sign, the certaintity of the model for the predicted model is important. For example for stop sign the first five best gusses of the model are presented in the table below:
 
-
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
-
-
-
-
+![alt text][image12] ![alt text][image13] 
