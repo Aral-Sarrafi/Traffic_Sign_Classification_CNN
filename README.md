@@ -41,6 +41,8 @@ Some of the images from the training data set is shown below with the labels inc
 Having a good understanding of the data distribution can be very helpful to train an efficient model. Therefore, the histogram of the data distribution is shown below:
 
 ![alt_text][image2]
+<img align="center" width="100" height="100" src=[image2]>
+
 ### 2. Data augmentation:
 
 
