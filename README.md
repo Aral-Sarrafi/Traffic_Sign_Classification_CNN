@@ -34,7 +34,8 @@ Similar to all machine learning approaches the data is splited into training, va
 * The shape of a traffic sign image is : (32,32,3)
 * The number of unique classes/labels in the data set is : 43
 
-Some of the images from the training data set is shown below:
+Some of the images from the training data set is shown below with the labels included as in the title:
+
 ![alt text][image1]
 
 ### Design and Test a Model Architecture
