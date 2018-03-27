@@ -139,10 +139,11 @@ Here are the results of the prediction obtained from the model:
 
 The trained model was able to identify the new images downloaded from the web accuratly. However, this does not mean that the model will be accurate for all the other images. As it has been shown tha accuracy of the model for test set and validation set is 93% and 95% respectively.
 
-Other than the accuracy of the model in predicting the label for the sign, the certaintity of the model for the predicted model is important. For example for stop sign the first five best gusses of the model are presented in the table below:
+Other than the accuracy of the model in predicting the label for the sign, the certaintity of the model for the predicted model is important. The figures below show the probabilities associated with the first top 5 guesses of the trained model for each of the images downloaded from the web. Hopefully the model is providing the correct labels with high cetrainity close to one for each of the images. However, one can find examples in which the model has less certainity in the predicted labels.
 
 ![alt text][image12]![alt text][image13] 
 ![alt text][image14]![alt text][image15] 
 ![alt text][image16]![alt text][image17] 
+
 
 
