@@ -8,7 +8,7 @@ The outline of the project is:
 * Data augmentation
 * Converting the data to grayscale and normalization
 * Neural network architercture
-* Trainig the Neural network and evaluating the accuracy on the validation set
+* Trainig the Neural network
 * Evaluation of the accuracy of the model on the test data
 * Evaluation of the accuracy of the model on the images downloaded from web
 
@@ -76,7 +76,7 @@ Revisiting the distribution of the new training data set can be helpful to bette
 
 The number of examples for the selected signs are increased. Ideadlly the distribution of the data should be close to uniform to avoid any sort of biased training. (This part is not investigated in this project)
 
-## 3.Converting data to grayscale and normalization:
+## 3. Converting data to grayscale and normalization:
 The netural network architecture used in this project are LeNet5 and imporved LeNet5 which are both efficient in processing the grayscale images. Therefore, we will be converting the data set to grayscale to compatible with the LeNet5. The grayscale image are shown below :
 
 ![alt_text][image8]
@@ -87,10 +87,20 @@ Data normalization is also very helpful while so;ving the optimization problem f
 
 ## 4. Neural network architercture:
 
-With in this project I used the modified LeNet neural network architecture addopted from Sermanet/LeCunn traffic sign classification journal article.
+With in this project I used the modified LeNet neural network architecture addopted from Sermanet/LeCunn traffic sign classification journal article. Moreover, dropout normalization is used in the fully connected layers for reguralization of the model and avoiding overfitting.
 
 ![alt_text][image10]
 The details of the neural network architecture can be found in the tensorflow implementation.
+
+## 5. Trainig the Neural network
+
+The neural network is trained by Adam optimizer. The weights and biases of the model are updated by Adam optimizer in a way to minimize the cross entropy cost function. Hyperparameters of the training are set to be:
+
+* learning rate = 0.0009
+* EPOCHs = 20
+* Batch size = 256
+* Keep_prob = 0.5
+
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
 To train the model, I used an ....
