@@ -127,15 +127,9 @@ Here are the results of the prediction obtained from the model:
 | Speed limit (60km/h)			| Speed limit (60km/h)      					|
 | Stop			| Stop      					|
 
+The trained model was able to identify the new images downloaded from the web accuratly. However, this does not mean that the model will be accurate for all the other images. As it has been shown tha accuracy of the model for test set and validation set is 93% and 95% respectively.
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
-
-#### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
-
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
-
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -146,4 +140,5 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | .01				    | Slippery Road      							|
 
 
-For the second image ... 
+
+
