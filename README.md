@@ -22,7 +22,7 @@ The outline of the project is:
 [image5]: ./Figures/translated.jpg 
 [image6]: ./Figures/augmented_data.jpg
 [image7]: ./Figures/new_histogram.jpg
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image8]: ./Figures/grayscale.jpg
 
 
 ## 1. Loading the data and visualization
@@ -73,7 +73,9 @@ Revisiting the distribution of the new training data set can be helpful to bette
 The number of examples for the selected signs are increased. Ideadlly the distribution of the data should be close to uniform to avoid any sort of biased training. (This part is not investigated in this project)
 
 ## 3.Converting data to grayscale and normalization:
-The netural network architecture used in this project are LeNet5 and imporved LeNet5 which are both efficient in processing the grayscale images. Therefore, we will be converting the data set to grayscale to compatible with the LeNet5.
+The netural network architecture used in this project are LeNet5 and imporved LeNet5 which are both efficient in processing the grayscale images. Therefore, we will be converting the data set to grayscale to compatible with the LeNet5. The grayscale image are shown below :
+
+![alt_text][image8]
 
 My final model consisted of the following layers:
 
