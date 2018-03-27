@@ -142,3 +142,7 @@ The trained model was able to identify the new images downloaded from the web ac
 Other than the accuracy of the model in predicting the label for the sign, the certaintity of the model for the predicted model is important. For example for stop sign the first five best gusses of the model are presented in the table below:
 
 ![alt text][image12]![alt text][image13] 
+![alt text][image14]![alt text][image15] 
+![alt text][image16]![alt text][image17] 
+
+
