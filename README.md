@@ -154,5 +154,8 @@ The trained model has an acceptble performance. However, there is still lots of 
 **Cosidering a better data augmentation approach:**
 The data augmentation can be performed is a smarter way which leads to a uniform distribution of the training data set to avoid a biased training of the model. More data augmentation function can be introduced such as bluring the images adding noise or random affine transfomations.
 
-**e other network architecture:**
+**Fine tunninf the model hyperparameters:**
+Number of EPOCHs for training, batch size, learning rate and keep_prob are the hyperparameters of the trained model. Fine tunning any of these hyperparameters can enhance the performace of the model.
+
+**Using other network architecture:**
 With in this projec I used modified LeNet for image classification. The drawback of this method is that the color of the images will not be taken into account in the classification procedure. Better image classification networks such as AlexNet or VGG-16 can take advantage of the color in the images which may lead to a better pefromance. However, training these models can take a longer time.
