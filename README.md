@@ -24,6 +24,9 @@ The outline of the project is:
 [image7]: ./Figures/new_histogram.jpg
 [image8]: ./Figures/grayscale.jpg
 [image9]: ./Figures/normalized.jpg
+[image10]: ./Figures/modifiedLeNet.jpg
+
+
 
 
 ## 1. Loading the data and visualization
@@ -82,6 +85,10 @@ Data normalization is also very helpful while so;ving the optimization problem f
 
 ![alt_text][image9]
 
+## 4. Neural network architercture:
+
+
+![alt_text][image10]
 
 
 My final model consisted of the following layers:
