@@ -26,11 +26,7 @@ The outline of the project is:
 
 
 ### 1. Loading the data and visualization
-
-#### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
-
-I used the pandas library to calculate summary statistics of the traffic
-signs data set:
+Similar to all machine learning approaches the data is splited into training, validation and test sets. The shape of each set can be obtained by using "shape" command from the numpy library.
 
 * The size of training set is : (34799,32,32,3)
 * The size of the validation set is : (4410,32,32,3)
@@ -38,10 +34,7 @@ signs data set:
 * The shape of a traffic sign image is : (32,32,3)
 * The number of unique classes/labels in the data set is : 43
 
-#### 2. Include an exploratory visualization of the dataset.
-
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
-
+Some of the images from the training data set is shown below:
 ![alt text][image1]
 
 ### Design and Test a Model Architecture
