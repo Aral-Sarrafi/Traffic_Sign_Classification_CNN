@@ -23,6 +23,7 @@ The outline of the project is:
 [image6]: ./Figures/augmented_data.jpg
 [image7]: ./Figures/new_histogram.jpg
 [image8]: ./Figures/grayscale.jpg
+[image9]: ./Figures/normalized.jpg
 
 
 ## 1. Loading the data and visualization
@@ -76,6 +77,12 @@ The number of examples for the selected signs are increased. Ideadlly the distri
 The netural network architecture used in this project are LeNet5 and imporved LeNet5 which are both efficient in processing the grayscale images. Therefore, we will be converting the data set to grayscale to compatible with the LeNet5. The grayscale image are shown below :
 
 ![alt_text][image8]
+
+Data normalization is also very helpful while so;ving the optimization problem for deep learning. It has been shown that the optimization algorithms such as stochastic gradient decent or Adam optimizer perfrome better on the normalized data, because the cost function will have better symetric proprties in different directions that can be helpful for the convergence of the optimizer. Figure below shows some of the normalized images from the training data set.
+
+![alt_text][image9]
+
+
 
 My final model consisted of the following layers:
 
