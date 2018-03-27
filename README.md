@@ -9,7 +9,6 @@ The outline of the project is:
 * Converting the data to grayscale and normalization
 * Neural network architercture
 * Trainig the Neural network
-* Evaluation of the accuracy of the model on the test data
 * Evaluation of the accuracy of the model on the images downloaded from web
 
 
@@ -111,13 +110,13 @@ The performace of the trained model is evaluated on the training, validation and
 * test set accuracy of : 0.935
 
 ## 6. Test a Model on New Images
-Here are six German traffic signs that I found on the web:
+
+I downloaded 6 german traffic signs from web which are included in the "German Traffic Signs" folder. As it is expected the images found on the web are not necessarily the same format and size that out model requires. Therefore, the images should be resized and normalized to be compatible with our trained model. Figure below shows these images after being resized using opencv and normalization.
 
 ![alt text][image11]
 
-#### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
-
-Here are the results of the prediction:
+Then the images are feed to the trained model (our model has never seen any of these image)
+Here are the results of the prediction obtained from the model:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
