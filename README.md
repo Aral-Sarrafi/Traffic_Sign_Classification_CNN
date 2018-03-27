@@ -20,8 +20,8 @@ The outline of the project is:
 [image3]: ./Figures/rotation.jpg 
 [image4]: ./Figures/scaled.jpg 
 [image5]: ./Figures/translated.jpg 
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
+[image6]: ./Figures/augmented_data.jpg
+[image7]: ./Figures/new_histogram.jpg
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 
@@ -61,24 +61,19 @@ This function gets an image and applies a random translation to it. The tranlati
 
 ![alt_text][image5]
 
-Here is an example of a traffic sign image before and after grayscaling.
+### New data set check:
+Before proceeding to training the model. I visulized some the new generated data with the labes, to make sure that the data set is consistent. Adding data with incorrect labels will make the model to fail. The figure below show some of the generated data and the labels are matching the sign. Therefore, the new data set is safe to train the model.
 
-![alt text][image2]
+![alt_text][image6]
 
-As a last step, I normalized the image data because ...
+Revisiting the distribution of the new training data set can be helpful to better understand the drawback of the model. The histogram of the new training data set is presented below:
 
-I decided to generate additional data because ... 
+![alt_text][image7]
 
-To add more data to the the data set, I used the following techniques because ... 
+The number of examples for the selected signs are increased. Ideadlly the distribution of the data should be close to uniform to avoid any sort of biased training. (This part is not investigated in this project)
 
-Here is an example of an original image and an augmented image:
-
-![alt text][image3]
-
-The difference between the original data set and the augmented data set is the following ... 
-
-
-#### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
+## 3.Converting data to grayscale and normalization:
+The netural network architecture used in this project are LeNet5 and imporved LeNet5 which are both efficient in processing the grayscale images. Therefore, we will be converting the data set to grayscale to compatible with the LeNet5.
 
 My final model consisted of the following layers:
 
