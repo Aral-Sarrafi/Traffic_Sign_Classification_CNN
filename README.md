@@ -15,8 +15,8 @@ The outline of the project is:
 
 [//]: # (Image References)
 
-[image1]: ./Figures/data_set.jpg
-[image2]: ./examples/grayscale.jpg "Grayscaling"
+[image1]: ./Figures/data_set.jpg "Data_Set"
+[image2]: ./Figures/histogram.jpg "Data_Set"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
@@ -38,7 +38,11 @@ Some of the images from the training data set is shown below with the labels inc
 
 ![alt text][image1]
 
-### Design and Test a Model Architecture
+Having a good understanding of the data distribution can be very helpful to train an efficient model. Therefore, the histogram of the data distribution is shown below:
+
+![alt_text][image2]
+### 2. Data augmentation:
+
 
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
